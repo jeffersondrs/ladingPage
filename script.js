@@ -8,20 +8,15 @@ var div = document.createElement("div");
 div.style.backgroundColor = "#122052";
 div.style.width = "380px";
 div.style.borderRadius = "10px";
-div.style.height = "450px";
+div.style.height = "120px";
 div.style.position = "relative";
 div.style.alignItems = "center";
 div.style.color = "#fff";
 div.style.display = "flex";
 div.style.flexDirection = "column";
 div.style.justifyContent = "center";
-div.innerHTML = "<h1>Contato</h1>";
-div.innerHTML += "<p>Nome:</p>";
-div.innerHTML += "<input type='text' placeholder='Nome'/>";
-div.innerHTML += "<p>Email:</p>";
-div.innerHTML += "<input type='text' placeholder='Email'/>";
-div.innerHTML += "<p>Mensagem:</p>";
-div.innerHTML += "<textarea placeholder='Mensagem'></textarea>";
+div.innerHTML = '<div><button>&circlearrowleft;</button><br><a href="https://github.com/jeffersondrs"><img src="./assets/github.png" alt="" style="background-color: transparent; width: 105px; height: 53px; border-radius: 10px; margin: 25px; padding: 2px;"></a><a href="https://www.linkedin.com/in/jeffersondrs/"><img src="./assets/linkedin.png" alt="" style="width: 155px; height: 53px; border-radius: 10px; margin: 25px; padding: 2px;"></a></div>';
+
 
 
 btnContato.addEventListener("click", function (e) {

@@ -145,3 +145,8 @@ h1 {
   transform: scale(102%);
   transition: ease-in-out 0.2s;
 }
+
+#contact{
+  width: 65px;
+  height: 65px;
+}
